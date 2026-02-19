@@ -1,0 +1,30 @@
+{
+  "libresplit": {
+    "start_decorated": false,
+    "start_on_top": false,
+    "hide_cursor": false,
+    "auto_splitter_enabled": true,
+    "global_hotkeys": true,
+    "theme": "standard",
+    "theme_variant": "",
+    "timer_decimals": 0,
+    "save_run_history": true,
+    "ask_on_gold": true,
+    "ask_on_worse": true
+  },
+  "keybinds": {
+    "start_split": "<Control>ccedilla",
+    "stop_reset": "<Control>l",
+    "cancel": "Delete",
+    "unsplit": "<Shift>less",
+    "skip_split": "<Shift>greater",
+    "toggle_decorations": "Control_R",
+    "toggle_win_on_top": "<Control>k"
+  },
+  "history": {
+    "split_file": "/home/depaula/.config/libresplit/splits/mango.json",
+    "last_split_folder": "/home/depaula/.config/libresplit/splits",
+    "last_auto_splitter_folder": "",
+    "auto_splitter_file": ""
+  }
+}

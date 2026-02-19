@@ -1,0 +1,324 @@
+12:42:08.821: Using EGL/X11
+12:42:08.821: CPU Name: 13th Gen Intel(R) Core(TM) i3-1315U
+12:42:08.821: CPU Speed: 957.728MHz
+12:42:08.821: Physical Cores: 6, Logical Cores: 8
+12:42:08.821: Physical Memory: 7659MB Total, 3896MB Free
+12:42:08.821: Kernel Version: Linux 6.18.7-arch1-1
+12:42:08.821: Distribution: "Arch Linux" Unknown
+12:42:08.821: Session Type: tty
+12:42:08.821: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:42:08.822: Current Date/Time: 2026-02-17, 12:42:08 PM
+12:42:08.822: Browser Hardware Acceleration: true
+12:42:08.822: Qt Version: 6.10.2 (runtime), 6.10.1 (compiled)
+12:42:08.822: Portable mode: false
+12:42:08.847: OBS 32.0.4 (linux)
+12:42:08.847: ---------------------------------
+12:42:08.847: ---------------------------------
+12:42:08.847: audio settings reset:
+12:42:08.847: 	samples per sec: 48000
+12:42:08.847: 	speakers:        2
+12:42:08.847: 	max buffering:   960 milliseconds
+12:42:08.847: 	buffering type:  dynamically increasing
+12:42:08.848: ---------------------------------
+12:42:08.848: Initializing OpenGL...
+12:42:08.891: Loading up OpenGL on adapter Intel Mesa Intel(R) Graphics (RPL-U)
+12:42:08.891: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.3.4-arch1.1, shading language 4.60
+12:42:08.917: ---------------------------------
+12:42:08.917: video settings reset:
+12:42:08.917: 	base resolution:   1920x1080
+12:42:08.917: 	output resolution: 1280x720
+12:42:08.917: 	downscale filter:  Bicubic
+12:42:08.917: 	fps:               30/1
+12:42:08.917: 	format:            NV12
+12:42:08.917: 	YUV mode:          Rec. 709/Partial
+12:42:08.917: NV12 texture support enabled
+12:42:08.917: P010 texture support not available
+12:42:08.927: Audio monitoring device:
+12:42:08.927: 	name: Default
+12:42:08.927: 	id: default
+12:42:08.929: ---------------------------------
+12:42:08.930: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:42:08.931: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:42:08.932: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:42:08.932: Failed to initialize module 'decklink.so'
+12:42:09.033: [pipewire] No capture sources available
+12:42:09.039: v4l2loopback not installed, virtual camera not registered
+12:42:09.048: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:42:09.048: FFmpeg VAAPI H264 encoding not supported
+12:42:09.048: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+12:42:09.048: FFmpeg VAAPI AV1 encoding not supported
+12:42:09.048: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+12:42:09.048: FFmpeg VAAPI HEVC encoding not supported
+12:42:09.050: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+12:42:09.050: 
+12:42:09.050: NVENC not supported
+12:42:09.050: Failed to initialize module 'obs-nvenc.so'
+12:42:09.062: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+12:42:09.062: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.2
+12:42:09.062: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+12:42:09.065: [obs-websocket] [obs_module_load] Module loaded.
+12:42:09.068: ---------------------------------
+12:42:09.068:   Loaded Modules:
+12:42:09.068:     text-freetype2.so
+12:42:09.068:     rtmp-services.so
+12:42:09.068:     obs-x264.so
+12:42:09.068:     obs-websocket.so
+12:42:09.068:     obs-webrtc.so
+12:42:09.068:     obs-vst.so
+12:42:09.068:     obs-transitions.so
+12:42:09.068:     obs-qsv11.so
+12:42:09.068:     obs-outputs.so
+12:42:09.068:     obs-libfdk.so
+12:42:09.068:     obs-filters.so
+12:42:09.068:     obs-ffmpeg.so
+12:42:09.068:     linux-v4l2.so
+12:42:09.068:     linux-pulseaudio.so
+12:42:09.068:     linux-pipewire.so
+12:42:09.068:     linux-jack.so
+12:42:09.068:     linux-capture.so
+12:42:09.068:     linux-alsa.so
+12:42:09.068:     image-source.so
+12:42:09.068:     frontend-tools.so
+12:42:09.068:     decklink-output-ui.so
+12:42:09.068:     decklink-captions.so
+12:42:09.068: ---------------------------------
+12:42:09.069: ---------------------------------
+12:42:09.069: Available Encoders:
+12:42:09.069:   Video Encoders:
+12:42:09.069: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:42:09.069: 	- ffmpeg_aom_av1 (AOM AV1)
+12:42:09.069: 	- obs_x264 (x264)
+12:42:09.069:   Audio Encoders:
+12:42:09.069: 	- ffmpeg_aac (FFmpeg AAC)
+12:42:09.069: 	- ffmpeg_opus (FFmpeg Opus)
+12:42:09.069: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:42:09.069: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:42:09.069: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:42:09.069: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:42:09.069: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:42:09.069: 	- libfdk_aac (libfdk AAC)
+12:42:09.069: ==== Startup complete ===============================================
+12:42:09.104: All scene data cleared
+12:42:09.104: ------------------------------------------------
+12:42:09.113: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+12:42:09.113: Deduplication logic is being applied to all monitored sources.
+12:42:09.114: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.10) 15.0.0'
+12:42:09.114: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+12:42:09.114: pulse-input: Started recording from 'bluez_output.41:42:00:33:52:4E.monitor' (default)
+12:42:09.114: [Loaded global audio device]: 'Desktop Audio'
+12:42:09.114: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.10) 15.0.0'
+12:42:09.115: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+12:42:09.115: pulse-input: Started recording from 'bluez_input.41:42:00:33:52:4E' (default)
+12:42:09.115: [Loaded global audio device]: 'Mic/Aux'
+12:42:09.116: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:42:09.116: 	title: LibreSplit
+12:42:09.116: 	class: libresplit
+12:42:09.116: 
+12:42:09.119: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+12:42:09.119: 	title: The Legend of Zelda - Ocarina of Time (E) (M3) (V1.0) - Project64 3.0.1.5664-2df3434
+12:42:09.119: 	class: project64.exe
+12:42:09.119: 
+12:42:09.131: Switched to scene 'Scene'
+12:42:09.131: ------------------------------------------------
+12:42:09.131: Loaded scenes:
+12:42:09.131: - scene 'Scene':
+12:42:09.131:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+12:42:09.131:     - source: 'Window Capture (Xcomposite) 2' (xcomposite_input)
+12:42:09.131: ------------------------------------------------
+12:42:09.141: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+12:42:09.141: Deduplication logic is being applied to all monitored sources.
+12:42:09.744: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+12:42:09.744: 
+12:42:48.805: User added source 'Window Capture (Xcomposite) 3' (xcomposite_input) to scene 'Scene'
+12:46:19.557: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+12:46:19.557: 
+14:19:59.262: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:19:59.262: 	title: KmCaster
+14:19:59.262: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:19:59.262: 
+14:21:03.361: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:03.361: 	title: KmCaster
+14:21:03.361: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:03.361: 
+14:21:03.561: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:03.561: 	title: KmCaster
+14:21:03.561: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:03.561: 
+14:21:03.761: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:03.761: 	title: KmCaster
+14:21:03.761: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:03.761: 
+14:21:03.961: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:03.961: 	title: KmCaster
+14:21:03.961: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:03.961: 
+14:21:04.261: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:04.261: 	title: KmCaster
+14:21:04.261: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:04.261: 
+14:21:05.861: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:05.861: 	title: KmCaster
+14:21:05.861: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:05.861: 
+14:21:06.095: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:06.095: 	title: KmCaster
+14:21:06.095: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:06.095: 
+14:21:09.661: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:09.661: 	title: KmCaster
+14:21:09.661: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:09.661: 
+14:21:09.861: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:09.861: 	title: KmCaster
+14:21:09.861: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:09.861: 
+14:21:10.061: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:10.061: 	title: KmCaster
+14:21:10.061: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:10.061: 
+14:21:10.261: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:10.261: 	title: KmCaster
+14:21:10.261: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:10.261: 
+14:21:10.395: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:10.395: 	title: KmCaster
+14:21:10.395: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:10.395: 
+14:21:10.594: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:10.594: 	title: KmCaster
+14:21:10.594: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:10.594: 
+14:21:10.761: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:10.761: 	title: KmCaster
+14:21:10.761: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:10.761: 
+14:21:10.961: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:10.961: 	title: KmCaster
+14:21:10.961: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:10.961: 
+14:21:11.428: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:11.428: 	title: KmCaster
+14:21:11.428: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:11.428: 
+14:21:11.561: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:11.561: 	title: KmCaster
+14:21:11.561: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:11.561: 
+14:21:11.728: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:11.728: 	title: KmCaster
+14:21:11.728: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:11.728: 
+14:21:11.861: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:11.861: 	title: KmCaster
+14:21:11.861: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:11.861: 
+14:21:12.028: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:12.028: 	title: KmCaster
+14:21:12.028: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:12.028: 
+14:21:12.162: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:12.162: 	title: KmCaster
+14:21:12.162: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:12.162: 
+14:21:12.328: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:12.328: 	title: KmCaster
+14:21:12.328: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:12.328: 
+14:21:12.463: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:12.463: 	title: KmCaster
+14:21:12.463: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:12.463: 
+14:21:12.629: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:12.629: 	title: KmCaster
+14:21:12.629: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:12.629: 
+14:21:12.761: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:12.761: 	title: KmCaster
+14:21:12.761: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:12.761: 
+14:21:12.929: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:12.929: 	title: KmCaster
+14:21:12.929: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:12.929: 
+14:21:13.061: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:13.061: 	title: KmCaster
+14:21:13.061: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:13.061: 
+14:21:13.228: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:13.228: 	title: KmCaster
+14:21:13.228: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:13.228: 
+14:21:13.362: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:13.362: 	title: KmCaster
+14:21:13.362: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:13.362: 
+14:21:13.528: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+14:21:13.528: 	title: KmCaster
+14:21:13.528: 	class: com-whitemagicsoftware-kmcaster-KmCaster
+14:21:13.528: 
+14:41:48.444: Last log entry repeated for 43 more lines
+14:41:48.444: Get on org.freedesktop.portal.Settings returned an invalid reply
+14:41:48.444: Get on org.freedesktop.portal.Settings returned an invalid reply
+14:42:16.336: Settings changed (general)
+14:42:16.336: ------------------------------------------------
+14:42:23.574: Get on org.freedesktop.portal.Settings returned an invalid reply
+14:42:23.574: Get on org.freedesktop.portal.Settings returned an invalid reply
+14:42:48.182: Settings changed (stream 1)
+14:42:48.182: ------------------------------------------------
+14:43:07.868: ---------------------------------
+14:43:07.868: [x264 encoder: 'simple_video_stream'] preset: veryfast
+14:43:07.871: [x264 encoder: 'simple_video_stream'] settings:
+14:43:07.871: 	rate_control: CBR
+14:43:07.871: 	bitrate:      6000
+14:43:07.871: 	buffer size:  6000
+14:43:07.871: 	crf:          23
+14:43:07.871: 	fps_num:      30
+14:43:07.871: 	fps_den:      1
+14:43:07.871: 	width:        1280
+14:43:07.871: 	height:       720
+14:43:07.871: 	keyint:       60
+14:43:07.871: 
+14:43:07.871: [x264 encoder: 'simple_video_stream'] custom settings: 
+14:43:07.871: 	scenecut = 0
+14:43:07.879: libfdk_aac encoder created
+14:43:07.879: libfdk_aac bitrate: 160, channels: 2
+14:43:07.879: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://sae10.contribute.live-video.net/app...
+14:43:08.638: [rtmp stream: 'simple_stream'] Connection to rtmp://sae10.contribute.live-video.net/app (35.55.26.56) successful
+14:43:08.671: ==== Streaming Start ===============================================
+14:43:40.730: [rtmp stream: 'simple_stream'] User stopped the stream
+14:43:40.730: Output 'simple_stream': stopping
+14:43:40.730: Output 'simple_stream': Total frames output: 936
+14:43:40.730: Output 'simple_stream': Total drawn frames: 986
+14:43:40.733: ==== Streaming Stop ================================================
+14:43:40.745: libfdk_aac encoder destroyed
+14:44:06.871: ---------------------------------
+14:44:06.871: [x264 encoder: 'simple_video_stream'] preset: veryfast
+14:44:06.871: [x264 encoder: 'simple_video_stream'] settings:
+14:44:06.871: 	rate_control: CBR
+14:44:06.871: 	bitrate:      6000
+14:44:06.871: 	buffer size:  6000
+14:44:06.871: 	crf:          23
+14:44:06.871: 	fps_num:      30
+14:44:06.871: 	fps_den:      1
+14:44:06.871: 	width:        1280
+14:44:06.871: 	height:       720
+14:44:06.871: 	keyint:       60
+14:44:06.871: 
+14:44:06.871: [x264 encoder: 'simple_video_stream'] custom settings: 
+14:44:06.871: 	scenecut = 0
+14:44:06.880: libfdk_aac encoder created
+14:44:06.880: libfdk_aac bitrate: 160, channels: 2
+14:44:06.880: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://sae10.contribute.live-video.net/app...
+14:44:07.622: [rtmp stream: 'simple_stream'] Connection to rtmp://sae10.contribute.live-video.net/app (35.55.26.33) successful
+14:44:07.625: ==== Streaming Start ===============================================
+14:58:59.228: User added source 'Display Capture (XSHM)' (xshm_input_v2) to scene 'Scene'
+14:59:01.464: xshm-input: Geometry 1920x1080 @ 0,0
+14:59:36.358: [rtmp stream: 'simple_stream'] User stopped the stream
+14:59:36.358: Output 'simple_stream': stopping
+14:59:36.358: Output 'simple_stream': Total frames output: 27833
+14:59:36.358: Output 'simple_stream': Total drawn frames: 27649 (27884 attempted)
+14:59:36.358: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 235 (0.8%)
+14:59:36.358: Video stopped, number of skipped frames due to encoding lag: 2/27861 (0.0%)
+14:59:36.361: ==== Streaming Stop ================================================
+14:59:36.362: libfdk_aac encoder destroyed
+15:16:31.151: ==== Shutting down ==================================================

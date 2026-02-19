@@ -1,0 +1,276 @@
+01:49:58.849: Using EGL/X11
+01:49:58.849: CPU Name: 13th Gen Intel(R) Core(TM) i3-1315U
+01:49:58.849: CPU Speed: 2441.004MHz
+01:49:58.849: Physical Cores: 6, Logical Cores: 8
+01:49:58.849: Physical Memory: 7659MB Total, 5074MB Free
+01:49:58.849: Kernel Version: Linux 6.18.7-arch1-1
+01:49:58.849: Distribution: "Arch Linux" Unknown
+01:49:58.849: Session Type: tty
+01:49:58.849: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+01:49:58.850: Current Date/Time: 2026-02-17, 01:49:58 AM
+01:49:58.850: Browser Hardware Acceleration: true
+01:49:58.850: Qt Version: 6.10.2 (runtime), 6.10.1 (compiled)
+01:49:58.850: Portable mode: false
+01:49:58.883: OBS 32.0.4 (linux)
+01:49:58.883: ---------------------------------
+01:49:58.884: ---------------------------------
+01:49:58.884: audio settings reset:
+01:49:58.884: 	samples per sec: 48000
+01:49:58.884: 	speakers:        2
+01:49:58.884: 	max buffering:   960 milliseconds
+01:49:58.884: 	buffering type:  dynamically increasing
+01:49:58.885: ---------------------------------
+01:49:58.885: Initializing OpenGL...
+01:49:58.931: Loading up OpenGL on adapter Intel Mesa Intel(R) Graphics (RPL-U)
+01:49:58.931: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.3.4-arch1.1, shading language 4.60
+01:49:59.031: ---------------------------------
+01:49:59.031: video settings reset:
+01:49:59.031: 	base resolution:   1920x1080
+01:49:59.031: 	output resolution: 1280x720
+01:49:59.031: 	downscale filter:  Bicubic
+01:49:59.031: 	fps:               30/1
+01:49:59.031: 	format:            NV12
+01:49:59.031: 	YUV mode:          Rec. 709/Partial
+01:49:59.031: NV12 texture support enabled
+01:49:59.031: P010 texture support not available
+01:49:59.037: Audio monitoring device:
+01:49:59.037: 	name: Default
+01:49:59.037: 	id: default
+01:49:59.039: ---------------------------------
+01:49:59.040: Failed to load 'en-US' text for module: 'decklink-captions.so'
+01:49:59.041: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+01:49:59.042: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:49:59.042: Failed to initialize module 'decklink.so'
+01:49:59.130: [pipewire] No capture sources available
+01:49:59.136: v4l2loopback not installed, virtual camera not registered
+01:49:59.154: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+01:49:59.154: FFmpeg VAAPI H264 encoding not supported
+01:49:59.154: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+01:49:59.154: FFmpeg VAAPI AV1 encoding not supported
+01:49:59.154: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+01:49:59.154: FFmpeg VAAPI HEVC encoding not supported
+01:49:59.156: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+01:49:59.156: 
+01:49:59.156: NVENC not supported
+01:49:59.156: Failed to initialize module 'obs-nvenc.so'
+01:49:59.168: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+01:49:59.168: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.2
+01:49:59.168: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+01:49:59.168: [obs-websocket] [Config::Load] Existing configuration not found, using defaults.
+01:49:59.168: [obs-websocket] [Config::Load] (FirstLoad) Generating new server password.
+01:49:59.171: [obs-websocket] [obs_module_load] Module loaded.
+01:49:59.173: ---------------------------------
+01:49:59.173:   Loaded Modules:
+01:49:59.173:     text-freetype2.so
+01:49:59.173:     rtmp-services.so
+01:49:59.173:     obs-x264.so
+01:49:59.173:     obs-websocket.so
+01:49:59.173:     obs-webrtc.so
+01:49:59.173:     obs-vst.so
+01:49:59.173:     obs-transitions.so
+01:49:59.173:     obs-qsv11.so
+01:49:59.173:     obs-outputs.so
+01:49:59.173:     obs-libfdk.so
+01:49:59.173:     obs-filters.so
+01:49:59.173:     obs-ffmpeg.so
+01:49:59.173:     linux-v4l2.so
+01:49:59.173:     linux-pulseaudio.so
+01:49:59.173:     linux-pipewire.so
+01:49:59.173:     linux-jack.so
+01:49:59.173:     linux-capture.so
+01:49:59.173:     linux-alsa.so
+01:49:59.173:     image-source.so
+01:49:59.173:     frontend-tools.so
+01:49:59.173:     decklink-output-ui.so
+01:49:59.173:     decklink-captions.so
+01:49:59.173: ---------------------------------
+01:49:59.173: ---------------------------------
+01:49:59.173: Available Encoders:
+01:49:59.173:   Video Encoders:
+01:49:59.173: 	- ffmpeg_svt_av1 (SVT-AV1)
+01:49:59.173: 	- ffmpeg_aom_av1 (AOM AV1)
+01:49:59.173: 	- obs_x264 (x264)
+01:49:59.173:   Audio Encoders:
+01:49:59.173: 	- ffmpeg_aac (FFmpeg AAC)
+01:49:59.173: 	- ffmpeg_opus (FFmpeg Opus)
+01:49:59.173: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+01:49:59.173: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+01:49:59.173: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+01:49:59.173: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+01:49:59.173: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+01:49:59.173: 	- libfdk_aac (libfdk AAC)
+01:49:59.173: ==== Startup complete ===============================================
+01:49:59.176: No scene file found, creating default scene
+01:49:59.205: All scene data cleared
+01:49:59.205: ------------------------------------------------
+01:49:59.223: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+01:49:59.223: Deduplication logic is being applied to all monitored sources.
+01:49:59.223: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.10) 15.0.0'
+01:49:59.223: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+01:49:59.224: pulse-input: Started recording from 'bluez_output.41:42:00:33:52:4E.monitor' (default)
+01:49:59.225: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.10) 15.0.0'
+01:49:59.225: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+01:49:59.225: pulse-input: Started recording from 'bluez_input.41:42:00:33:52:4E' (default)
+01:49:59.227: Switched to scene 'Scene'
+01:49:59.227: Created scene collection 'Untitled' (clean, Untitled.json)
+01:49:59.227: ------------------------------------------------
+01:49:59.251: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+01:49:59.251: Deduplication logic is being applied to all monitored sources.
+01:49:59.780: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+01:49:59.780: 
+01:49:59.908: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+01:49:59.908: 
+01:50:00.236: [rtmp-services plugin] Successfully updated file 'services.json' (version 285)
+01:50:00.236: [rtmp-services plugin] Successfully updated package (version 285)
+01:53:33.528: 
+01:53:33.528: ==== Auto-config wizard testing commencing ======
+
+01:53:33.538: ---------------------------------
+01:53:33.538: video settings reset:
+01:53:33.538: 	base resolution:   1920x1080
+01:53:33.538: 	output resolution: 128x128
+01:53:33.538: 	downscale filter:  Bicubic
+01:53:33.538: 	fps:               60/1
+01:53:33.538: 	format:            NV12
+01:53:33.538: 	YUV mode:          Rec. 709/Partial
+01:53:33.538: NV12 texture support enabled
+01:53:33.538: P010 texture support not available
+01:53:33.561: ---------------------------------
+01:53:33.561: [x264 encoder: 'test_x264'] preset: veryfast
+01:53:33.562: [x264 encoder: 'test_x264'] settings:
+01:53:33.562: 	rate_control: CBR
+01:53:33.562: 	bitrate:      6000
+01:53:33.562: 	buffer size:  6000
+01:53:33.562: 	crf:          23
+01:53:33.562: 	fps_num:      60
+01:53:33.562: 	fps_den:      1
+01:53:33.562: 	width:        128
+01:53:33.562: 	height:       128
+01:53:33.562: 	keyint:       120
+01:53:33.562: 
+01:53:33.562: [x264 encoder: 'test_x264'] custom settings: 
+01:53:33.562: 	scenecut = 0
+01:53:33.565: ---------------------------------
+01:53:33.566: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+01:53:33.566: 
+01:53:33.567: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://ingest.global-contribute.live-video.net/app...
+01:53:34.609: [rtmp stream: 'test_stream'] Connection to rtmp://ingest.global-contribute.live-video.net/app (35.55.26.59) successful
+01:53:42.537: [rtmp stream: 'test_stream'] User stopped the stream
+01:53:42.537: Output 'test_stream': stopping
+01:53:42.537: Output 'test_stream': Total frames output: 457
+01:53:42.537: Output 'test_stream': Total drawn frames: 538
+01:53:42.544: ---------------------------------
+01:53:42.544: video settings reset:
+01:53:42.544: 	base resolution:   1920x1080
+01:53:42.544: 	output resolution: 1280x720
+01:53:42.544: 	downscale filter:  Bicubic
+01:53:42.544: 	fps:               30/1
+01:53:42.544: 	format:            NV12
+01:53:42.544: 	YUV mode:          Rec. 709/Partial
+01:53:42.546: NV12 texture support enabled
+01:53:42.546: P010 texture support not available
+01:53:42.559: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+01:53:42.559: Deduplication logic is being applied to all monitored sources.
+01:53:42.559: 
+01:53:42.559: ==== Auto-config wizard testing stopping ========
+
+01:53:54.647: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:53:54.648: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:18.521: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:18.521: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:25.958: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:25.959: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:31.885: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:34.278: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:38.992: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:46.780: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:46.894: Settings changed (appearance)
+01:56:46.894: ------------------------------------------------
+01:56:50.287: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:56:50.287: Get on org.freedesktop.portal.Settings returned an invalid reply
+01:58:11.454: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'Scene'
+01:58:16.221: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:58:16.221: 	title: sakura
+01:58:16.221: 	class: sakura
+01:58:16.221: 
+01:58:16.222: xcb_composite_name_window_pixmap failed
+01:58:43.562: User Removed source 'Window Capture (Xcomposite)' (xcomposite_input) from scene 'Scene'
+01:58:52.344: User added source 'Display Capture (XSHM)' (xshm_input_v2) to scene 'Scene'
+01:58:55.855: xshm-input: Geometry 1920x1080 @ 0,0
+01:59:01.244: ---------------------------------
+01:59:01.244: [x264 encoder: 'simple_video_stream'] preset: veryfast
+01:59:01.244: [x264 encoder: 'simple_video_stream'] settings:
+01:59:01.244: 	rate_control: CBR
+01:59:01.244: 	bitrate:      6000
+01:59:01.244: 	buffer size:  6000
+01:59:01.244: 	crf:          23
+01:59:01.244: 	fps_num:      30
+01:59:01.244: 	fps_den:      1
+01:59:01.244: 	width:        1280
+01:59:01.244: 	height:       720
+01:59:01.244: 	keyint:       250
+01:59:01.244: 
+01:59:01.251: libfdk_aac encoder created
+01:59:01.251: libfdk_aac bitrate: 160, channels: 2
+01:59:01.262: ==== Recording Start ===============================================
+01:59:01.262: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/depaula/2026-02-17 01-59-01.mp4'...
+01:59:16.560: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+01:59:16.563: [mp4 muxer: 'simple_file_output'] Number of fragments: 4
+01:59:16.563: [mp4 muxer: 'simple_file_output'] Full moov size: 9 KiB
+01:59:16.564: [mp4 muxer: 'simple_file_output'] Final mdat size: 10764 KiB
+01:59:16.564: Output 'simple_file_output': stopping
+01:59:16.564: Output 'simple_file_output': Total frames output: 433
+01:59:16.564: Output 'simple_file_output': Total drawn frames: 459
+01:59:16.564: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+01:59:16.566: [mp4 output: 'simple_file_output'] File output complete. Finalization took 6 ms.
+01:59:16.566: ==== Recording Stop ================================================
+01:59:16.597: libfdk_aac encoder destroyed
+02:00:13.416: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'Scene'
+02:00:20.264: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:00:20.264: 	title: OBS For Brand New Streamers (Creating Scenes, Adding Alerts, and MORE) - YouTube — Mozilla Firefox
+02:00:20.264: 	class: Navigator
+02:00:20.264: 
+02:00:31.577: User Removed source 'Window Capture (Xcomposite)' (xcomposite_input) from scene 'Scene'
+02:00:37.183: User Removed source 'Display Capture (XSHM)' (xshm_input_v2) from scene 'Scene'
+02:01:12.592: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'Scene'
+02:01:15.655: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:01:15.655: 	title: LibreSplit
+02:01:15.655: 	class: libresplit
+02:01:15.655: 
+02:01:24.628: User added source 'Window Capture (Xcomposite) 2' (xcomposite_input) to scene 'Scene'
+02:01:27.221: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+02:01:27.221: 	title: LibreSplit
+02:01:27.221: 	class: libresplit
+02:01:27.221: 
+02:01:30.788: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+02:01:30.788: 	title: sakura
+02:01:30.788: 	class: sakura
+02:01:30.788: 
+02:02:35.989: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:35.989: 	title: sakura
+02:02:35.989: 	class: sakura
+02:02:35.989: 
+02:02:35.989: xcb_composite_name_window_pixmap failed
+02:02:37.454: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:37.454: 	title: OBS 32.0.4 - Profile: Untitled - Scenes: Untitled
+02:02:37.454: 	class: obs
+02:02:37.454: 
+02:02:53.254: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:53.254: 	title: LibreSplit
+02:02:53.254: 	class: libresplit
+02:02:53.254: 
+02:04:38.801: User Removed source 'Window Capture (Xcomposite) 2' (xcomposite_input) from scene 'Scene'
+02:04:46.229: User added source 'Window Capture (Xcomposite) 2' (xcomposite_input) to scene 'Scene'
+02:04:50.354: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+02:04:50.354: 	title: Mupen64Plus OpenGL Video Plugin by Rice v2.6.0
+02:04:50.354: 	class: mupen64plus
+02:04:50.354: 
+02:04:50.354: xcb_composite_name_window_pixmap failed
+02:19:14.552: User Removed source 'Window Capture (Xcomposite) 2' (xcomposite_input) from scene 'Scene'
+02:19:23.473: User added source 'Window Capture (Xcomposite) 2' (xcomposite_input) to scene 'Scene'
+02:19:31.288: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+02:19:31.288: 	title: Glide64mk2
+02:19:31.288: 	class: mupen64plus
+02:19:31.288: 
+02:26:05.092: adding 64 milliseconds of audio buffering, total audio buffering is now 106 milliseconds (source: Mic/Aux)
+02:26:05.092: 
