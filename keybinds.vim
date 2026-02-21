@@ -9,3 +9,4 @@ nnoremap <leader>r :1<CR>
 nnoremap <leader>t :$<CR>
 nnoremap <leader>v :so<CR>
 nnoremap <leader>ff :e
+inoremap <Tab> <Esc>
